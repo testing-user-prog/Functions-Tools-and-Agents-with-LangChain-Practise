@@ -14,7 +14,7 @@ with open('config.json', 'r') as config_file:
 api_key=config.get("OPENAI_API_KEY")
 client = OpenAI(
     api_key=api_key, 
-    base_url="https://api.groq.com/openai/v1" # Point to Groq's endpoint
+    base_url="https://api.groq.com/openai/v1"
 )
 functions=[
     {
