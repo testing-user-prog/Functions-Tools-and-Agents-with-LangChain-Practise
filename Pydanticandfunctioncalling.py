@@ -4,7 +4,6 @@ from langchain_core.utils.function_calling import convert_to_openai_function as 
 from langchain_core.prompts import ChatPromptTemplate
 import json
 from langchain_groq import ChatGroq
-from langchain_core.messages import HumanMessage
 with open('config.json', 'r') as config_file:
     config = json.load(config_file)
 api_key=config.get("OPENAI_API_KEY")
