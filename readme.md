@@ -1,1 +1,1 @@
-This repo contains all the practise of the things that I have done related to the topics mentioned in the repo's title
+This repo contains all the practise of the things that I have done in the Function-Tools and Agents in LangChain course
